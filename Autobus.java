@@ -4,6 +4,9 @@ public class Autobus
     private int sitzplatze;
     private boolean anhanger;
     
+
+    
+    
     public Autobus(String neuKennzeichen, int neuSitzplatze, 
 boolean neuAnhanger)
     {
