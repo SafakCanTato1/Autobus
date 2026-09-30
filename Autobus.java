@@ -4,7 +4,7 @@ public class Autobus
     private int sitzplatze;
     private boolean anhanger;
     
-        public Autobus(String neuKennzeichen, int neuSitzplatze, 
+    public Autobus(String neuKennzeichen, int neuSitzplatze, 
 boolean neuAnhanger)
     {
         setKennzeichen(neuKennzeichen);
@@ -26,6 +26,21 @@ boolean neuAnhanger)
     public void setAnhanger(boolean neuAnhanger)
     {
         anhanger =neuAnhanger;
+    }
+    
+        public String getKennzeichen()
+    {
+        return kennzeichen;
+    }
+
+    public int getSitzplatze()
+    {
+        return sitzplatze;
+    }
+
+    public boolean getAnhanger()
+    {
+        return anhanger;
     }
     
 }
